@@ -1,5 +1,5 @@
 ---
-description: Pipeline for processing CrowdStrike sample logs
+description: Ingest pipeline for normalizing CrowdStrike FDR logs
 processors:
   # Message decoding.
   - remove:
